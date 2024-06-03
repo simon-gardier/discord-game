@@ -1,4 +1,6 @@
-# Discord game bot
+# ⌨️ Discord game bot
+![Release](https://img.shields.io/badge/Release-v1.0-blueviolet?style=for-the-badge)
+![Language](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 Discord bot allowing you to play games against your friends in your Discord server! (Or against the bot if you do not have any)
 
