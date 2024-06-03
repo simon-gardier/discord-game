@@ -1,6 +1,10 @@
 # Discord game bot
 
-Discord bot allowing you to play games against your friends in your Discord server! (Or against the bot if you do not have any) 
+Discord bot allowing you to play games against your friends in your Discord server! (Or against the bot if you do not have any)
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="misc/main.png" alt="bayes filter" style="width: 90%;"/>
+</div>
 
 The bot is implemented in C++ using [D++](https://dpp.dev/). 
 
@@ -13,8 +17,8 @@ Note : No copying (even partial) of this code within the scope of the INFO0004 c
 ## Summary
 1. [Try it!](#try-it)
 2. [Troubleshooting](#troubleshooting)
-3. [Entrapment - Game rules](#entrapment-game-rules)
-4. [Entrapement - Interactions](#entrapement-interactions)
+3. [Entrapment - Game rules](#entrapment---game-rules)
+4. [Entrapement - Interactions](#entrapement---interactions)
 5. [Credits](#credits)
 
 ## Try it!
@@ -44,32 +48,32 @@ The goal of each player is to trap the other. A player is trapped if he can not 
 ## Entrapement - Interactions
 - A player can start a game using the command `/trap playerName` where playerName is the name of a player or your bot
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/trap.png" alt="Trap command message" style="width: 60%;"/>
+  <img src="misc/trap.png" alt="Trap command message" style="width:85%;"/>
 </div>
 
 - A player can play a move by clicking a red cell when it is its turn.
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/first.png" alt="First turn message" style="width: 60%;"/>
+  <img src="misc/first.png" alt="First turn message" style="width: 85%;"/>
 </div>
 
 - A player can surrend by reacting to the game message with the emoji ❌ (i.e :x: ) :
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/surrender.png" alt="Wrong game message" style="width: 60%;"/>
+  <img src="misc/surrender.png" alt="Wrong game message" style="width: 85%;"/>
 </div>
 
 - If a player tries to play when it is not its turn, he receives a message from the bot :
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/turn.png" alt="Wrong turn message" style="width: 60%;"/>
+  <img src="misc/turn.png" alt="Wrong turn message" style="width: 85%;"/>
 </div>
 
 - If someone interacts with a game he is not part of, he receives a message from the bot :
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/wrong_game.png" alt="Wrong game message" style="width: 60%;"/>
+  <img src="misc/wrong_game.png" alt="Wrong game message" style="width: 85%;"/>
 </div>
 
 - If someone interacts with an unknown game (happens if the backups are deleted), he receives a message from the bot :
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/unknown.png" alt="Unknown game message" style="width: 60%;"/>
+  <img src="misc/unknown.png" alt="Unknown game message" style="width:85%;"/>
 </div>
 
 
