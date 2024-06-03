@@ -3,7 +3,7 @@
 Discord bot allowing you to play games against your friends in your Discord server! (Or against the bot if you do not have any)
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="misc/main.png" alt="bayes filter" style="width: 90%;"/>
+  <img src="misc/main.png" alt="bayes filter" style="width: 70%;"/>
 </div>
 
 The bot is implemented in C++ using [D++](https://dpp.dev/). 
